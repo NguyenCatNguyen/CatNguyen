@@ -1,2 +1,2 @@
 # My personal website
-https://nguyencatnguyen.github.io/CatNguyen/
+https://nguyencatnguyen.github.io/CatNguyen/index.html
