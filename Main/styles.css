@@ -680,6 +680,12 @@ footer{
 
 
 @media(max-width: 390px){
+    .title{
+        font-size: 34px;
+    }
+    .header__para{
+        font-size: 16px;
+    }
     .nav__link--list{
         display: none;
     }
