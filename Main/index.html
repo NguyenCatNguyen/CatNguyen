@@ -24,7 +24,7 @@
             </figure>
             <ul class="nav__link--list">
                 <li class="nav__link">
-                    <a href="#" onclick="toggleModal()" class="
+                    <a href="#" class="
                     nav__link--anchor
                     link__hover-effect
                     link__hover-effect--black
@@ -52,18 +52,26 @@
                     "><i class="fas fa-adjust"></i></a>
                 </li>
             </ul>
-
+            <button class="btn__menu" onclick="openMenu()"><i class="fas fa-bars"></i></button>
+            <div class="menu__backdrop">
+                <button class="btn__menu" onclick="closeMenu()"><i class="fas fa-times"></i></button>
+                <ul class="menu__links">
+                    <li><a href="#landing-page" onclick="closeMenu()" class="menu__link">About</a></li>
+                    <li><a href="#project" onclick="closeMenu()" class="menu__link">Project</a></li>
+                    <li><a href="#" onclick="closeMenu()" class="menu__link">Contact</a></li>
+                </ul>
+            </div>
         </nav>
         <header class="header">
             <div class="header__content">
                 <h1 class="title">HI,</h1>
-                <h1 class="title orange">I'M <span data-value="CAT NGUYEN" class="HyperFlex">CAT NGUYEN</h1>
+                <h1 class="title">I'M <span data-value="CAT NGUYEN" class="HyperFlex purple">CAT NGUYEN</h1>
                 <p class="header__para">
-                    I'm a <strong class="orange">frontend software engineer</strong> with a strong passion for building
-                        visually stunning <strong class="orange"> 3D websites</strong> and beautiful UI/UX designs. My 
+                    I'm a <strong class="purple">frontend software engineer</strong> with a strong passion for building
+                        visually stunning <strong class="purple"> 3D websites</strong> and beautiful UI/UX designs. My 
                         goal is to creating responsive, high-performance web applications that offer exceptional user experiences. 
                     <br>
-                    Here's a bit more <strong onclick="toggleModal()" class="orange click">about me</strong>.
+                    Here's a bit more <strong onclick="toggleModal()" class="purple click">about me</strong>.
                     <br>
                     
                 </p>
@@ -88,7 +96,7 @@
         </a>
         <div class="modal">
             <div class="modal__half modal__about">
-                <h3 class="modal__title">Here a bit about me</h3>
+                <h3 class="modal__title">My <span class="purple">Technology</span> Stack</h3>
                 <h4 class="modal__sub-title modal__sub-title--aboutme">Fronted Software Engineer</h4>
                 <p class="modal__para">
                     I'm a frontend software
@@ -156,7 +164,7 @@
         <div class="container">
             <div class="project__row">
                 <h1 class="section__title">
-                    My <span class="orange">projects.</span>
+                    My <span class="purple">projects.</span>
                 </h1>
                 <ul class="project__list">
                     <li class="project">
@@ -201,10 +209,10 @@
                                     hosting it using GitHub, I ensure easy access for users.
                                 </p>
                                 <div class="project__description--links">
-                                    <a target="_blank" href="" class="project__description--link click">
+                                    <a target="_blank" href="https://github.com/NguyenCatNguyen/Projects?tab=readme-ov-file" class="project__description--link click">
                                         <i class="fab fa-github"></i>
                                     </a>
-                                    <a target="_blank" href="" class="project__description--link click">
+                                    <a target="_blank" href="https://nguyencatnguyen.github.io/Projects/E-Book/index.html" class="project__description--link click">
                                         <i class="fa-solid fa-link"></i>
                                     </a>
                                 </div>
