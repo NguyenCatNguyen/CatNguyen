@@ -97,10 +97,8 @@
         <div class="modal">
             <div class="modal__half modal__about">
                 <h3 class="modal__title">My <span class="purple">Technology</span> Stack</h3>
-                <h4 class="modal__sub-title modal__sub-title--aboutme">Fronted Software Engineer</h4>
+                <h4 class="modal__sub-title modal__sub-title--aboutme">Here are the techstack that I usually working with</h4>
                 <p class="modal__para">
-                    I'm a frontend software
-
                 </p>
                 <div class="modal__languages">
                     <figure class="modal__language">
@@ -127,6 +125,10 @@
                         <img src="https://cdn-icons-png.flaticon.com/128/9544/9544010.png" alt="" class="modal__img">
                         <span class="language__name">SQL</span>
                     </figure>
+                    <figure class="modal__language">
+                        <img src="https://cdn-icons-png.flaticon.com/128/5968/5968381.png" alt="" class="modal__img">
+                        <span class="language__name">TypeScript</span>
+                    </figure>
                 </div>
             </div>
             <div class="modal__half modal__contact">
@@ -136,15 +138,15 @@
                 <form onsubmit="contact(event)" id="contact__form">
                     <div class="form_item">
                         <label class="form__item--label">Name</label>
-                        <input type="text" class="input" name="user_name" ></input>
+                        <input type="text" class="input" name="user_name" required></input>
                     </div>
                     <div class="form_item">
                         <label class="form__item--label">Email</label>
-                        <input type="email" class="input" name="user_email" ></input>
+                        <input type="email" class="input" name="user_email" required></input>
                     </div>
                     <div class="form_item">
                         <label class="form__item--label">Message</label>
-                        <textarea type="text" class="input" name="message" ></textarea>
+                        <textarea type="text" class="input" name="message" required></textarea>
                     </div>
                     <button id="contact__submit" class="form__submit">
                         Send it my way
